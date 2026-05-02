@@ -2,55 +2,57 @@
 
 API inteligente para atendimento automatizado de clientes, desenvolvida com FastAPI e hospedada na Microsoft Azure.
 
+---
+
 ## Sobre o projeto
 
 O AI Support Agent API simula um sistema moderno de suporte ao cliente, capaz de:
 
-- Receber tickets de atendimento
-- Classificar mensagens automaticamente por categoria
-- Detectar urgência do problema
-- Gerar respostas automáticas com IA
-- Armazenar dados em banco relacional e NoSQL
-- Exibir métricas operacionais
+- Receber tickets de atendimento  
+- Classificar mensagens automaticamente por categoria  
+- Detectar urgência do problema  
+- Gerar respostas automáticas com IA  
+- Armazenar dados em banco relacional e NoSQL  
+- Exibir métricas operacionais  
 
-Projeto desenvolvido com foco em portfólio profissional para vagas de Backend / Full Stack / Cloud / IA.
+Projeto desenvolvido com foco em portfólio profissional para vagas de Backend, Full Stack, Cloud e IA.
 
 ---
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 
-- Python
-- FastAPI
-- Uvicorn
-- Gunicorn
+- Python  
+- FastAPI  
+- Uvicorn  
+- Gunicorn  
 
 ### Banco de Dados
 
-- Azure PostgreSQL Flexible Server
-- MongoDB Atlas
+- Azure PostgreSQL Flexible Server  
+- MongoDB Atlas  
 
 ### Inteligência Artificial
 
-- Scikit-Learn
-- Hugging Face API
+- Scikit-Learn  
+- Hugging Face API  
 
 ### Cloud / DevOps
 
-- Microsoft Azure App Service
-- GitHub
-- GitHub Actions
+- Microsoft Azure App Service  
+- GitHub  
+- GitHub Actions  
 
 ---
 
 ## Deploy Online
 
-### API publicada na Azure:
+### API
 
 https://ai-support-agent-api-allan-drabbbbhbqf8fbb6.brazilsouth-01.azurewebsites.net
 
-### Swagger / Documentação:
+### Swagger Docs
 
 https://ai-support-agent-api-allan-drabbbbhbqf8fbb6.brazilsouth-01.azurewebsites.net/docs
 
@@ -69,8 +71,9 @@ https://ai-support-agent-api-allan-drabbbbhbqf8fbb6.brazilsouth-01.azurewebsites
   "customer_id": 1,
   "message": "Meu pedido está atrasado e ninguém responde"
 }
+```
 
-### Response
+#### Response
 
 ```json
 {
@@ -80,20 +83,23 @@ https://ai-support-agent-api-allan-drabbbbhbqf8fbb6.brazilsouth-01.azurewebsites
   "category": "logistica",
   "urgency": "alta"
 }
+```
 
-## Análise Inteligente
+---
+
+### Análise Inteligente
 
 **POST** `/agent/analyze`
 
 Analisa a mensagem e retorna:
 
-- Categoria
-- Urgência
-- Resposta automática
+- Categoria  
+- Urgência  
+- Resposta automática  
 
 ---
 
-## Métricas
+### Métricas
 
 **GET** `/metrics`
 
@@ -106,9 +112,13 @@ Analisa a mensagem e retorna:
     "suporte_tecnico": 1
   }
 }
+```
+
+---
 
 ## Estrutura do Projeto
 
+```txt
 app/
 ├── main.py
 ├── models.py
@@ -118,15 +128,18 @@ app/
 ├── ai_agent.py
 ├── ml_classifier.py
 └── rpa.py
+```
+
+---
 
 ## Diferenciais do Projeto
 
-- Projeto real hospedado em nuvem
-- Integração com IA
-- Banco SQL + NoSQL
-- API documentada
-- Estrutura profissional
-- Aplicação pronta para escalar
+- Projeto real hospedado em nuvem  
+- Integração com IA  
+- Banco SQL + NoSQL  
+- API documentada  
+- Estrutura profissional  
+- Aplicação pronta para escalar  
 
 ---
 
@@ -134,12 +147,12 @@ app/
 
 Demonstrar habilidades práticas em:
 
-- Desenvolvimento Backend
-- APIs REST
-- Cloud Computing
-- Inteligência Artificial aplicada
-- Banco de dados
-- Deploy em produção
+- Desenvolvimento Backend  
+- APIs REST  
+- Cloud Computing  
+- Inteligência Artificial aplicada  
+- Banco de dados  
+- Deploy em produção  
 
 ---
 
@@ -150,5 +163,5 @@ Demonstrar habilidades práticas em:
 GitHub:  
 https://github.com/allan141
 
-LinkedIn:
+LinkedIn:  
 https://www.linkedin.com/in/allancavalcante-dev/
